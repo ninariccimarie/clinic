@@ -1,0 +1,42 @@
+/*Playfair Display*/
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(./Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplayBlack;
+    src: url(./Playfair_Display/PlayfairDisplay-Black.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplayBlackItalic;
+    src: url(./Playfair_Display/PlayfairDisplay-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplayBold;
+    src: url(./Playfair_Display/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplayBoldItalic;
+    src: url(./Playfair_Display/PlayfairDisplay-BoldItalic.ttf)
+}
+
+/*Muli*/
+@font-face {
+    font-family: Muli;
+    src: url(./Muli/Muli-Regular.ttf);
+}
+
+/*Oswald*/
+@font-face {
+    font-family: Oswald;
+    src: url(./Oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: OswaldLight;
+    src: url(./Oswald/Oswald-Light.ttf);
+}
