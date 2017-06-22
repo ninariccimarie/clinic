@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import styles from './button.scss'
 
 const Button = (props) => {
     const text = props.text
@@ -9,7 +9,7 @@ const Button = (props) => {
         props.onChangePage(e.target.value)
     }
     return(
-        <div>
+        <div className={styles.button }>
             <button value={text} onClick={handleClick}>{text}</button>
         </div>
     )

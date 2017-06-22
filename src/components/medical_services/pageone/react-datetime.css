@@ -1,13 +1,12 @@
 /*!
  * https://github.com/YouCanBookMe/react-datetime
  */
-
 .rdt {
   position: relative;
 }
 .rdtPicker {
   display: none;
-  position: absolute;
+  position: inherit;
   width: 250px;
   padding: 4px;
   margin-top: 1px;
@@ -210,4 +209,9 @@ td.rdtYear:hover {
   width: 100%;
   font-size: 1.2em;
   margin-top: 37px;
+}
+
+.rdt input{
+  display: block;
+  margin: 0 auto;
 }

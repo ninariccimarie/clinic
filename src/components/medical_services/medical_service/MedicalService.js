@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 
-const PageTwo = (props) => {
+const MedicalService = (props) => {
     const category = props.category
-    console.log('Page Two', {category})
     return (
         <div>
             <h1>{category}</h1>
@@ -10,4 +9,4 @@ const PageTwo = (props) => {
     )
 }
 
-export default PageTwo
+export default MedicalService

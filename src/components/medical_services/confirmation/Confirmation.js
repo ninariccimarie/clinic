@@ -14,7 +14,7 @@ const Confirmation = (props) => {
                 <label>middle name: {props.middleName}</label>
                 <label>last name: {props.lastName}</label>
                 <label>sex: {props.sex}</label>
-                <label>birth date: {props.birthDate.format('MMMM DD, YYYY')}</label>                            
+                <label>birth date: {props.birthDate}</label>                            
             </div>
             <div>
                 <label>height: {props.height.ft} ft {props.height.inch} inch/es</label>

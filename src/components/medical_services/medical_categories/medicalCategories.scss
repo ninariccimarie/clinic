@@ -1,0 +1,30 @@
+$orange:#ffb933;
+
+.container{
+    background: #89bdd3;
+    display: flex;
+    flex-wrap: wrap;
+    
+    div{
+        flex-grow: 1;
+        width: 33%;
+    }
+}
+
+.button{
+    text-transform: uppercase;
+    color: #e3e3e3;
+    background: transparent;
+    border: none;
+    padding: 10px;
+    &:active{
+        color: #c9c9c9
+    }
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background: $orange;
+}

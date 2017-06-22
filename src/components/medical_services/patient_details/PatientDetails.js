@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ReactDateTime from 'react-datetime'
 
+import '../pageone/react-datetime.css'
 
 const FirstName = (props) => {
     const onFirstNameChange = (e) => {

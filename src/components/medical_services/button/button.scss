@@ -1,0 +1,17 @@
+.button{
+    button{
+        position: relative;
+        text-transform: uppercase;
+        background: transparent;
+        padding: 5px;
+        border: solid;
+        color: #89bdd3;
+        border-color: #89bdd3;
+
+        &:hover{
+            background:#89bdd3;
+            color: #e9ece5;
+            border-color: #89bdd3;
+        }
+    }
+}

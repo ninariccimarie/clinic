@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import styles from './about.scss'
 
 const About = () => (
-	<div>
+	<div className={ styles.about }>
 		<h2>about</h2>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates impedit
@@ -11,4 +12,4 @@ const About = () => (
 	</div>
 )
 
-export default About;
+export default About

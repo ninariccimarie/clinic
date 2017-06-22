@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-const PageThree = (props) => {
+const Schedule = (props) => {
     const datetime = props.datetime
     return (
         <div>
@@ -9,4 +9,4 @@ const PageThree = (props) => {
     )
 }
 
-export default PageThree
+export default Schedule

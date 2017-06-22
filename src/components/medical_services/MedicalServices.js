@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import ReactDateTime from 'react-datetime'
 
-import pages from './pages/Pages'
-import Button from './Button'
-import './react-datetime.css'
+import pages from './Pages'
+import Button from './button/Button'
 
-console.log('pages', pages)
+import styles from './medicalServices.scss'
 
 const SelectButton = (props) => {
     const onChangePage = props.onChangePage
@@ -123,8 +122,8 @@ export default class MedicalServices extends Component {
         const PageToRender = pages[currentPage]
         // console.log('Page to render',PageToRender[this.state.currentPage])
         return (
-            <div>
-                <h2>Medical Services Offered</h2>
+            <div className={ styles.medserv }>
+                <h2 className={ styles.title }>Medical Services Offered</h2>
                 <PageToRender 
                         category={category} 
                         datetime={datetime}
